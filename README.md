@@ -21,20 +21,21 @@ This project was developed as part of an academic testing assignment using Playw
 
 ---
 
-## Project Structure (File Separation)
+## 📁 Project Structure (File Separation)
 
 singlish-sinhala-playwright-tests/
 ├─ tests/
-│  ├─ positive-functional.spec.js   # Positive functional test cases (24 tests)
-│  ├─ negative-functional.spec.js   # Negative / robustness test cases
-│  └─ ui.spec.js                    # UI-related test scenario(s)
-├─ playwright.config.js             # Playwright configuration file
-├─ package.json                     # Project dependencies
+│ ├─ positive-functional.spec.js # Positive functional test cases (24 tests)
+│ ├─ negative-functional.spec.js # Negative / robustness test cases
+│ └─ ui.spec.js # UI-related test scenario(s)
+├─ playwright.config.js # Playwright configuration file
+├─ package.json # Project dependencies
 ├─ reports/
-│  └─ screenshots/                  # HTML report screenshots (positive & negative tests only)
-└─ README.md                        # Project documentation
+│ └─ screenshots/ # HTML report screenshots (positive & negative tests only)
+└─ README.md # Project documentation
 
-==============================================================================================================================
+
+====================================================================================
 
 ## Prerequisites
 - Node.js (latest LTS recommended)
@@ -42,7 +43,18 @@ singlish-sinhala-playwright-tests/
 
 git clone ----> <https://github.com/osanda02/singlish-sinhala-playwright-tests.git>
 
-=============================================================================================================================
+====================================================================================
+
+## Test Execution Evidence (Screenshots)
+
+Screenshots are stored here:
+`reports/screenshots/`
+
+### View screenshots
+- [Positive Functional Report](reports/screenshots/positive-functional-report.png)
+- [Negative Functional Report](reports/screenshots/negative-functional-report.png)
+
+=====================================================================================
 
 ## 🧪 Playwright Test Execution Guide
 
@@ -62,13 +74,3 @@ npx playwright test --project=chromium
 # View HTML test report
 npx playwright show-report
 
-===========================================================================================================================
-
-## Test Execution Evidence (Screenshots)
-
-Screenshots are stored here:
-`reports/screenshots/`
-
-### View screenshots
-- [Positive Functional Report](reports/screenshots/positive-functional-report.png)
-- [Negative Functional Report](reports/screenshots/negative-functional-report.png)
