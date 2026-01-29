@@ -21,22 +21,6 @@ This project was developed as part of an academic testing assignment using Playw
 
 ---
 
-## 📁 Project Structure (File Separation)
-
-singlish-sinhala-playwright-tests/
-├─ tests/
-│ ├─ positive-functional.spec.js # Positive functional test cases (24 tests)
-│ ├─ negative-functional.spec.js # Negative / robustness test cases
-│ └─ ui.spec.js # UI-related test scenario(s)
-├─ playwright.config.js # Playwright configuration file
-├─ package.json # Project dependencies
-├─ reports/
-│ └─ screenshots/ # HTML report screenshots (positive & negative tests only)
-└─ README.md # Project documentation
-
-
-====================================================================================
-
 ## Prerequisites
 - Node.js (latest LTS recommended)
 - npm (included with Node.js)
@@ -45,16 +29,18 @@ git clone ----> <https://github.com/osanda02/singlish-sinhala-playwright-tests.g
 
 ====================================================================================
 
-## Test Execution Evidence (Screenshots)
+## 📸 Test Report Screenshots
 
-Screenshots are stored here:
+Screenshots are stored in:
 `reports/screenshots/`
 
-### View screenshots
-- [Positive Functional Report](reports/screenshots/positive-functional-report.png)
-- [Negative Functional Report](reports/screenshots/negative-functional-report.png)
+### ✅ Positive Functional Test Report
+![Positive Functional Report](reports/screenshots/positive-functional-report.png)
 
-=====================================================================================
+### ❌ Negative Functional Test Report
+![Negative Functional Report](reports/screenshots/negative-functional-report.png)
+
+====================================================================================
 
 ## 🧪 Playwright Test Execution Guide
 
@@ -73,4 +59,21 @@ npx playwright test --project=chromium
 
 # View HTML test report
 npx playwright show-report
+
+```
+---
+
+## 📁 Project Structure (File Separation)
+
+```text
+singlish-sinhala-playwright-tests/
+├─ tests/
+│  ├─ positive-functional.spec.js   # Positive functional test cases (24 tests)
+│  ├─ negative-functional.spec.js   # Negative / robustness test cases
+│  └─ ui.spec.js                    # UI-related test scenario(s)
+├─ playwright.config.js             # Playwright configuration file
+├─ package.json                     # Project dependencies
+├─ reports/
+│  └─ screenshots/                  # HTML report screenshots (positive & negative tests only)
+└─ README.md                        # Project documentation
 
