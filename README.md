@@ -44,15 +44,23 @@ git clone ----> <https://github.com/osanda02/singlish-sinhala-playwright-tests.g
 
 =============================================================================================================================
 
-## Run tests separately (Positive, Negative & UI)
--> npx playwright test tests/positive-functional.spec.js
--> npx playwright test tests/negative-functional.spec.js
--> npx playwright test tests/ui.spec.js
+## 🧪 Playwright Test Execution Guide
 
-Run tests on Chromium only -> npx playwright test --project=chromium
+```bash
+# Run positive functional tests
+npx playwright test tests/positive-functional.spec.js
 
-View HTML Report
-- npx playwright show-report
+# Run negative functional tests
+npx playwright test tests/negative-functional.spec.js
+
+# Run UI tests
+npx playwright test tests/ui.spec.js
+
+# Run all tests on Chromium only
+npx playwright test --project=chromium
+
+# View HTML test report
+npx playwright show-report
 
 ===========================================================================================================================
 
