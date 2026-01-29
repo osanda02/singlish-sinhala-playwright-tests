@@ -1,0 +1,22 @@
+{
+  "name": "singlish-sinhala-playwright-tests",
+  "version": "1.0.0",
+  "description": "🔍 Automated UI testing using Playwright to assess Singlish to Sinhala conversion accuracy and overall UI stability and usability.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osanda02/singlish-sinhala-playwright-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osanda02/singlish-sinhala-playwright-tests/issues"
+  },
+  "homepage": "https://github.com/osanda02/singlish-sinhala-playwright-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.0.10"
+  }
+}
